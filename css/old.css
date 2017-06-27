@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(100, 100, 100);
+/*   background-image: url('https://pbs.twimg.com/profile_images/3420333597/020af58f318e4d31a4c48bb08404becb.jpeg') */
+}
+#base {
+  background-color: rgb(150, 150, 150)
+}
+#welcome {
+  background-color: rgb(180, 180, 180);
+}
+#career {
+  background-color: rgb(180, 180, 180);
+}
+#hobbies {
+  background-color: rgb(150, 150, 150);
+}
+#portfolio {
+  background-color: rgb(180, 180, 180);
+}
+#contact {
+  background-color: rgb(150, 150, 150);
+}
+.header {
+  border: 2px solid red;
+  float: left;
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+  
+}
+#profile {
+  width: 70px;
+  border-radius: 50%;
+}
+
+#career-photo {
+  border-radius: 50%;
+}
+.career-text {
+  font-family: Helvetica sans-serif 'Trebuchet MS';
+  font-size: 32px;
+}
+.welcome-text {
+  font-family: Helvetica sans-serif 'Trebuchet MS';
+  font-size: 30px;
+  width:100%;
+}
+.portfolio-image {
+  height: 200px;
+}
+
+.contact-address {
+  font-size: 2em;
+  font-family: Helvetica;
+  color: black;
+}
+#title {
+  font-family: Helvetica;
+  color:rgb(150, 150, 150);
+  font-size: 30px;
+}
+.list-wide {
+  background-color: rgb(130, 130, 130); 
+  list-style-type: none;
+  padding: 10px;
+}
+.section-title {
+  margin: 0 auto 0 auto;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+}
+.nav-bar {
+  float: right;
+}
+.center {
+    margin: auto;
+    width: 90%;
+    border: 3px solid yellow;
+    padding: 10px;
+}
+.nav-a:link {
+  padding: 8%;
+  font-family: Helvetica;
+  text-decoration: None;
+  background-color: cyan;
+}
+.nav-a:hover {
+  padding: 8%;
+  font-family: Helvetica;
+  text-decoration: None;
+  background-color: yellow;
+}
+.nav-a:active {
+  padding: 8%;
+  font-family: Helvetica;
+  text-decoration: None;
+  background-color: grey;
+}
+.nav-group {
+  border: 2px dotted;
+  width: 75%;
+  margin: 0 auto;
+}
